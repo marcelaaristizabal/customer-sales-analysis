@@ -30,15 +30,5 @@ pip install pandas matplotlib numpy
 
 # Run the analysis
 python sales_analysis.py
-----------------------------------------------------------------------------------------------------------------------------
-PROJECT STRUCTURE
-customer-sales-analysis/
-│
-├── images/
-│   ├── customers_by_country.png
-│   ├── revenue_by_product.png
-│
-├── sales_analysis.py
-├── README.md
 
 Author: Marcela Aristizábal
