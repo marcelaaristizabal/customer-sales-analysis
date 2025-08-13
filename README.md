@@ -1,24 +1,44 @@
-# Customer Sales Analysis with Synthetic Data
+# 📊 Customer Sales Analysis with Synthetic Data
 
 ## 📌 Overview
-This project demonstrates **data generation, analysis, and visualization** using Python.
-It creates synthetic customer sales data, analyzes trends, and generates professional charts.
+This project demonstrates **synthetic data generation, analysis, and visualization** using Python.  
+It generates a dataset of **1,500 customers**, analyzes sales trends, and produces professional charts for insights.
 
 ## 🛠️ Tools & Libraries
-- Python 3
-- Pandas
-- Matplotlib
-- NumPy
+- **Python 3**
+- **Pandas**
+- **Matplotlib**
+- **NumPy**
 
 ## 🔍 Features
-- **Synthetic Data Generation**: Creates realistic datasets for repeated testing.
-- **Sales Trend Analysis**: Identifies top-selling products and revenue patterns.
-- **Data Visualization**: Clear, professional charts for insights.
+- **Synthetic Data Generation**: Creates realistic customer sales data for testing and analysis.
+- **Sales Trend Analysis**: Identifies top-selling products, country-based customer distribution, and revenue patterns.
+- **Data Visualization**: Generates clear, professional charts for decision-making.
 
-## 📊 Sample Chart
-![Sales Chart](images/sales_chart.png)
+## 📊 Sample Charts
+
+**Customers by Country**  
+![Customers by Country](images/customers_by_country.png)
+
+**Revenue by Product**  
+![Revenue by Product](images/revenue_by_product.png)
 
 ## 🚀 How to Run
 ```bash
+# Install dependencies
 pip install pandas matplotlib numpy
+
+# Run the analysis
 python sales_analysis.py
+----------------------------------------------------------------------------------------------------------------------------
+PROJECT STRUCTURE
+customer-sales-analysis/
+│
+├── images/
+│   ├── customers_by_country.png
+│   ├── revenue_by_product.png
+│
+├── sales_analysis.py
+├── README.md
+
+Author: Marcela Aristizábal
